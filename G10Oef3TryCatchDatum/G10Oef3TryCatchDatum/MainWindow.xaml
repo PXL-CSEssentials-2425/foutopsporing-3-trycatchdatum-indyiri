@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:G10Oef3TryCatchDatum"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Correcte datum controleren..." Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
+        <TextBox x:Name="dayTextBox" HorizontalAlignment="Left" Margin="193,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="27"/>
+        <TextBox x:Name="yearTextBox" HorizontalAlignment="Left" Margin="493,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="27"/>
+        <TextBox x:Name="monthTextBox" HorizontalAlignment="Center" Margin="0,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="27"/>
+        <Button x:Name="checkButton" Content="Check" HorizontalAlignment="Center" Margin="0,196,0,0" VerticalAlignment="Top" Width="136" Height="33" BorderBrush="#FF00DF03" Background="#FF00DF03" Foreground="White"/>
 
     </Grid>
 </Window>

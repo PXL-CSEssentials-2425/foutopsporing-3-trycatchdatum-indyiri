@@ -20,5 +20,10 @@ namespace G10Oef3TryCatchDatum
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+ 
+        }
     }
 }
